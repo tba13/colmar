@@ -21,17 +21,22 @@ header h2 {
     color: lightgray;
 }
 
+nav {
+    
+}
+
 nav li{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: inline-flex;  
     padding-left: 1.5rem;
-    float: right;
+    
 }
 
 .sign-up-section {
     background-color: lightgray;
     padding-top: 4rem;
     display: flex;
+   
 }
 
 .sign-up-section img {
@@ -44,10 +49,12 @@ nav li{
     color: rgb(58, 61, 66);
     display: block;
     width: auto;
+    align-content: center;
+    padding-right: 2rem;
 }
 
 .sign-up-text h3 {
-    font-size: 2rem;
+    font-size: 2.375rem;
     font-weight: bold;
     padding-bottom: 2rem;
 
@@ -60,7 +67,7 @@ nav li{
 
 .sign-up-section #button {
     padding: .5rem 0;
-    width: 10rem;
+    width: 100%;
     height: auto;
     background-color: rgb(58, 61, 66);
     color: white;
