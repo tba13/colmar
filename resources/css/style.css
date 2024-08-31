@@ -1,8 +1,16 @@
 body {
+<<<<<<< HEAD
+=======
+    box-sizing: border-box;
+>>>>>>> origin/master
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(58, 61, 66);
 }
 
+<<<<<<< HEAD
+=======
+ /*header*/
+>>>>>>> origin/master
 header {
     height: 4rem;
     width: 100%;
@@ -37,11 +45,16 @@ nav li{
     padding-left: 1.5rem;
 }
 
+<<<<<<< HEAD
 
+=======
+/*sign-up*/
+>>>>>>> origin/master
 .sign-up-section {
     background-color: lightgray;
     padding-top: 4rem;
     display: flex;
+<<<<<<< HEAD
    
 }
 
@@ -49,20 +62,39 @@ nav li{
     max-width: 60%;
     height: auto;
     padding: 2rem 1.5rem;
+=======
+}
+
+/*image part*/
+.sign-up-section #image-container {
+    max-width: 60%;
+    padding: 2rem 1.5rem;
+}
+
+.sign-up-section img {
+    max-width: 100%;
+>>>>>>> origin/master
 }
 
 .sign-up-text {
     display: block;
     width: auto;
     align-content: center;
+<<<<<<< HEAD
     padding-right: 2rem;
+=======
+    padding: 2rem 1.5rem 1.5rem 0;
+>>>>>>> origin/master
 }
 
 .sign-up-text h3 {
     font-size: 2.375rem;
     font-weight: bold;
     padding-bottom: 2rem;
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 }
 
 .sign-up-text p {
@@ -79,8 +111,58 @@ nav li{
     text-align: center;
 }
 
+<<<<<<< HEAD
 .quote-section img {
     max-width: 60%;
     padding: 2rem 1.5rem;
 }
 
+=======
+.info-section {
+    display: flex;
+}
+
+/*info section: quote*/
+.quote-section {
+    display: inline-block;
+    width: 60%;
+    padding: 2rem 1.5rem;
+}
+
+.quote-section img {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 1.5rem;
+}
+
+.quote-section h4 {
+    font-size: 2.375rem;
+    font-weight: bold;
+    padding-bottom: 1.5rem;
+}
+
+.quote-section p {
+    padding-bottom: 1.5rem;
+}
+
+.quote-section #author {
+    font-size: .75rem;
+}
+
+/**/
+.more-info-section{
+    
+}
+/*info section: orientation*/
+.orientation-section {
+    display: flex;
+    width: 40%;
+}
+
+.orientation-section img{
+    max-width: 35%;
+    height: auto;
+}
+
+
+>>>>>>> origin/master
