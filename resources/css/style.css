@@ -4,6 +4,9 @@ body {
     color: rgb(58, 61, 66);
 }
 
+a {
+    color: rgb(76, 178, 218);
+}
 
 /*header*/
 header {
@@ -51,6 +54,7 @@ nav li {
 .sign-up-section #image-container {
     max-width: 60%;
     padding: 2rem 1.5rem;
+    align-content: center;
 }
 
 .sign-up-section img {
@@ -84,6 +88,7 @@ nav li {
     text-align: center;
 }
 
+
 .info-section {
     display: flex;
 }
@@ -115,7 +120,11 @@ nav li {
     font-size: .75rem;
 }
 
-/**/
+/*more-info section: has problems with overflow, 
+might be because of set width percentages that
+isn't implemented yet.
+NOTE: add hover property once all more info 
+section is set up*/
 .more-info-container {
     border-left: .1rem solid lightgray;
     width: 40%;
@@ -131,25 +140,21 @@ nav li {
     padding-bottom: 0.75rem;
 }
 
-.orientation-text a {
-    color: skyblue ;
-}
-
-/*info section: orientation*/
-#orientation-section {
+.more-info {
     display: flex;
+    border-bottom: .1rem solid lightgray;
+    border-right: .1rem solid lightgray;
 }
 
-#orientation-section img {
+.more-info img {
     max-width: 35%;
     height: auto;
     padding: 1.5rem;
+    float: left;
+    object-fit: contain;
 }
 
-#orientation-text {
-    padding: auto 1rem;
+.info-section .more-info-text {
+    padding: 1.5rem 1.5rem 1.5rem 0;
     align-content: center;
 }
-
-
-
